@@ -1,0 +1,5 @@
+<ul class="sideNav">
+    <a href="#/person/{{$index}}" ng-repeat="person in info | filter:$parent.searchQuery">
+        <li>{{ person.name}} <span class="glyphicon glyphicon-triangle-right"></span></li>
+    </a>
+</ul>
